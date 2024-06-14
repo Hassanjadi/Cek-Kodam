@@ -12,13 +12,12 @@ h1 {
 }
 
 input {
-  border: 1px solid #464646;
   padding: 10px;
-  color: #202020;
   font-size: 16px;
-  margin: 16px 16px;
+  color: #202020;
   border-radius: 4px;
   outline-color: #202020;
+  border: 1px solid #464646;
   font-family: "Plus Jakarta Sanas", sans-serif;
 }
 
@@ -38,15 +37,14 @@ button:hover {
 
 p {
   font-size: 14px;
-  color: #202020;
   font-weight: 500;
+  color: #202020;
   text-align: center;
   font-family: "Plus Jakarta Sanas", sans-serif;
 }
 
 .container {
   margin: auto;
-  width: 50%;
   height: 80vh;
   padding: 40px;
   display: flex;
@@ -57,4 +55,18 @@ p {
 
 .swal2-confirm {
   background-color: #202020;
+}
+
+.input-button {
+  gap: 16px;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .input-button {
+    gap: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 }
