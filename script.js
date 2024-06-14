@@ -89,9 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
         title: "Khodam Ditemukan!",
         html: `<b>${inputName}</b> memiliki khodam: <b>${randomKhodam}</b>`,
         confirmButtonText: "Selesai Cek Khodam",
-        customClass: {
-          confirmButton: "swal2-confirm",
-        },
+        confirmButtonColor: "#202020",
       });
 
       inputField.value = "";
@@ -100,9 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
         title: "Kesalahan",
         text: "Harap masukkan nama.",
         confirmButtonText: "Done",
-        customClass: {
-          confirmButton: "swal2-confirm",
-        },
+        confirmButtonColor: "#202020",
       });
     }
   }
