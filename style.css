@@ -44,6 +44,7 @@ p {
 }
 
 .container {
+  width: 50%;
   margin: auto;
   height: 80vh;
   padding: 40px;
